@@ -1,18 +1,7 @@
-1. make neural network module
-  ctor:
-    nodes per layer
-      recommended value unknown
-    connection strategy
-      enum:
-        EachToEach
-          connects every node from layer n-1 to every node from layer n
-        SparseRandom
-          connects every node from layer n-1 to a set percentage of the nodes from the next layer (randomly)
-  api:
-    ???
-2. make a neural network trainer
+[X] make neural network module
+[ ] Generate datasets somehow or adapt them from an online dataset
+[ ] make a neural network trainer
   api:
     train(neural_network, training_set, iterations)
       trains neural network with a training set a given number of iterations (using backpropagation)
-3. Generate datasets somehow or adapt them from an online dataset
-4. Display the neural network inputs and output
+[ ] Display the neural network inputs and output
